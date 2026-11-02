@@ -1,0 +1,40 @@
+# === 隐私 / 密钥（绝不提交）===
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+*credentials*
+*secret*
+*token*
+*apikey*
+*api_key*
+*api-key*
+.credentials.yaml
+**/.credentials.yaml
+**/*credentials*.yaml
+**/*credentials*.yml
+.dsh/
+.codex/
+.npmrc
+.netrc
+auth.json
+# === 备份 ===
+agents/*.orig.bak
+*.bak
+*.orig
+*.swp
+*~
+# === 任务运行态（模板在 templates/）===
+tasks/**
+!tasks/
+!tasks/.gitkeep
+# === 本地杂项 ===
+node_modules/
+.DS_Store
+__pycache__/
+.venv/
+*.log
